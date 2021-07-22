@@ -1,0 +1,92 @@
+<div id="main">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    </head>
+
+    <div class="title-group">
+        <h1 id="title">BZ BBQ</h1>
+        <h3 id="subheading">Customer satisfaction survey</h3>
+        <p id="description">Please let us know how we did</p>
+    </div>
+
+    <form id="survey-form">
+        <div class="group">
+            <label id="name-label" for="name">Enter your name:</label><br>
+            <input required type="text" id="name" placeholder="Name" class="text-area" /><br>
+        </div>
+
+        <div class="group">
+            <label id="email-label" for="email">Enter your email:</label><br>
+            <input required type="email" id="email" placeholder="Email" class="text-area" /><br>
+        </div>
+
+        <div class="group">
+            <label id="number-label" for="number">Enter your age: (optional)</label><br>
+            <input required type="number" id="number" min="13" max="120" placeholder="13-120" class="text-area" /><br>
+        </div>
+
+        <div class="group">
+            <label for="date">Date of visit:</label><br>
+            <input type="date" id="date" name="date" min="2016-2-20" class="text-area" /><br>
+        </div>
+
+        <div class="group">
+            <label id="dropdown-label" for="dropdown">Dine-in or take-out?</label><br>
+            <select id="dropdown" class="text-area">
+                <option value="dine-In">Dine-In</option>
+                <option value="take-out">Take-Out</option>
+            </select><br>
+        </div>
+
+        <div class="group">
+            <label for="radio">Quality of food:</label>
+            <input type="radio" id="e" name="radio" value="excellent" class="radio-input">
+            <label for="e">Excellent</label>
+            <input type="radio" id="g" name="radio" value="good" class="radio-input" />
+            <label for="g">Good</label>
+            <input type="radio" id="f" name="radio" value="fair" class="radio-input">
+            <label for="f">Fair</label>
+            <input type="radio" id="p" name="radio" value="poor" class="radio-input">
+            <label for="p">Poor</label><br>
+        </div>
+
+        <div class="group">
+            <label for="radio">Service:</label>
+            <input type="radio" id="e" name="radio2" value="excellent" class="radio-input">
+            <label for="e">Excellent</label>
+            <input type="radio" id="g" name="radio2" value="good" class="radio-input">
+            <label for="g">Good</label>
+            <input type="radio" id="f" name="radio2" value="fair" class="radio-input">
+            <label for="f">Fair</label>
+            <input type="radio" id="p" name="radio2" value="poor" class="radio-input">
+            <label for="p">Poor</label><br>
+        </div>
+
+        <div class="group">
+            <label for="vehicle">
+                <input type="checkbox" id="vehicle1" name="vehicle" value="1" class="check-input">
+                <label for="vehicle1"> 1</label>
+                <input type="checkbox" id="vehicle2" name="vehicle" value="2" class="check-input">
+                <label for="vehicle2"> 2</label>
+                <input type="checkbox" id="vehicle3" name="vehicle" value="3" class="check-input">
+                <label for="vehicle3"> 3</label><br>
+        </div>
+
+        <div class="group">
+            <label for="textarea">Any additional comments:</label><br>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" class="text-area"></textarea><br>
+        </div>
+
+        <div class="group">
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </form>
+</div>
+<foot>
+    Website designed by Zach
+</foot>
+
+</div>
